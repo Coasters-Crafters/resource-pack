@@ -1,0 +1,81 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "minecraft:custom/drinks/cocktails/cosmopolitan"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "minecraft:custom/drinks/cocktails/hugo_prosejito"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "minecraft:custom/drinks/cocktails/mojito"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4
+        },
+        "model": "minecraft:custom/drinks/cocktails/sex_on_the_beach"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 100
+        },
+        "model": "minecraft:custom/drinks/cola"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 101
+        },
+        "model": "minecraft:custom/drinks/lemonade"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 102
+        },
+        "model": "minecraft:custom/drinks/orange_soda"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 200
+        },
+        "model": "minecraft:custom/drinks/blue_slushy"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 201
+        },
+        "model": "minecraft:custom/drinks/green_slushy"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 202
+        },
+        "model": "minecraft:custom/drinks/orange_slushy"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 203
+        },
+        "model": "minecraft:custom/drinks/purple_slushy"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 204
+        },
+        "model": "minecraft:custom/drinks/red_slushy"
+      }
+    ]
+}

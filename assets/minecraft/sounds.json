@@ -1,0 +1,12 @@
+{
+	"fart": {
+		"sounds": [
+			"fart"
+		]
+	},
+	"elevator": {
+		"sounds": [
+			"elevator"
+		]
+	}
+}

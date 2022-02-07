@@ -1,0 +1,86 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/apple"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "minecraft:custom/foods/popsicle/blueberry"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "minecraft:custom/foods/popsicle/firecracker"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "minecraft:custom/foods/popsicle/lemon"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4
+        },
+        "model": "minecraft:custom/foods/popsicle/melon"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5
+        },
+        "model": "minecraft:custom/foods/popsicle/orange"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6
+        },
+        "model": "minecraft:custom/foods/popsicle/pear"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 7
+        },
+        "model": "minecraft:custom/foods/popsicle/strawberry"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 10
+        },
+        "model": "minecraft:custom/foods/ice_cream"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 100
+        },
+        "model": "minecraft:custom/foods/fruit/banana"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 101
+        },
+        "model": "minecraft:custom/foods/fruit/diamond_apple"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 102
+        },
+        "model": "minecraft:custom/foods/fruit/green_apple"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 103
+        },
+        "model": "minecraft:custom/foods/fruit/orange"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 104
+        },
+        "model": "minecraft:custom/foods/fruit/pear"
+      }
+    ]
+}

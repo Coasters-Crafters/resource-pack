@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "custom/grass_block",
+        "top": "custom/grass_block",
+        "side": "custom/grass_block"
+    }
+}
