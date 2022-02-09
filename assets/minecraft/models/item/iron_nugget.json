@@ -120,6 +120,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 119
+      },
+      "model": "minecraft:custom/furniture/path_light"
+    },
+    {
+      "predicate": {
         "custom_model_data": 200
       },
       "model": "minecraft:custom/coaster_logo_left"
