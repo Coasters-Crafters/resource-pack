@@ -10,6 +10,7 @@
 	    "note=8": { "model": "block/note_block/stones/cornerstone" },
 	    "note=9": { "model": "block/note_block/stones/stone_pillar" },
 	    "note=10": { "model": "block/note_block/stones/small_stone_bricks" },
-	    "note=11": { "model": "block/note_block/floor/jungle" }
+	    "note=11": { "model": "block/note_block/floor/jungle" },
+	    "note=12": { "model": "block/note_block/stones/cracked_lodestone" }
     }
 }
