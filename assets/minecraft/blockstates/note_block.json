@@ -1,16 +1,16 @@
 {
-    "variants": {       
-        "note=1": { "model": "block/note_block/stones/slate" },
-        "note=2": { "model": "block/note_block/stones/slate_bricks" },
-        "note=3": { "model": "block/note_block/stones/marble" },
-        "note=4": { "model": "block/note_block/stones/polished_marble" },
-        "note=5": { "model": "block/note_block/stones/marble_bricks" },
-	    "note=6": { "model": "block/note_block/stones/limestone" },
-	    "note=7": { "model": "block/note_block/stones/limestone_bricks" },
-	    "note=8": { "model": "block/note_block/stones/cornerstone" },
-	    "note=9": { "model": "block/note_block/stones/stone_pillar" },
-	    "note=10": { "model": "block/note_block/stones/small_stone_bricks" },
-	    "note=11": { "model": "block/note_block/floor/jungle" },
-	    "note=12": { "model": "block/note_block/stones/cracked_lodestone" }
-    }
+  "variants": {
+    "note=1": { "model": "block/note_block/stones/slate" },
+    "note=2": { "model": "block/note_block/stones/slate_bricks" },
+    "note=3": { "model": "block/note_block/stones/marble" },
+    "note=4": { "model": "block/note_block/stones/polished_marble" },
+    "note=5": { "model": "block/note_block/stones/marble_bricks" },
+    "note=6": { "model": "block/note_block/stones/limestone" },
+    "note=7": { "model": "block/note_block/stones/limestone_bricks" },
+    "note=8": { "model": "block/note_block/stones/cornerstone" },
+    "note=9": { "model": "block/note_block/stones/stone_pillar" },
+    "note=10": { "model": "block/note_block/stones/small_stone_bricks" },
+    "note=11": { "model": "block/note_block/floor/jungle" },
+    "note=12": { "model": "block/note_block/floor/bus_lane" }
+  }
 }

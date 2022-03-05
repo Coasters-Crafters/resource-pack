@@ -45,6 +45,13 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "custom/ui/blue_box.png",
+			"ascent": 250,
+			"height": 1500,
+			"chars": ["借"]
+		},
+		{
+			"type": "bitmap",
 			"file": "custom/logo_font.png",
 			"ascent": -2,
 			"height": 32,
