@@ -234,6 +234,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 137
+      },
+      "model": "minecraft:custom/furniture/outdoor_table"
+    },
+    {
+      "predicate": {
         "custom_model_data": 200
       },
       "model": "minecraft:custom/coaster_logo_left"
