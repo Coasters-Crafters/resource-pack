@@ -198,12 +198,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 300
-      },
-      "model": "minecraft:custom/coin"
-    },
-    {
-      "predicate": {
         "custom_model_data": 400
       },
       "model": "minecraft:custom/covers/cobbled_deepslate"
