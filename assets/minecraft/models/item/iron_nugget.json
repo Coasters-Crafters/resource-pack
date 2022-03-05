@@ -86,7 +86,7 @@
       "predicate": {
         "custom_model_data": 113
       },
-      "model": "minecraft:custom/plant"
+      "model": "minecraft:custom/pots/plant"
     },
     {
       "predicate": {
@@ -123,6 +123,114 @@
         "custom_model_data": 119
       },
       "model": "minecraft:custom/furniture/path_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 120
+      },
+      "model": "minecraft:custom/pots/bush_oak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 121
+      },
+      "model": "minecraft:custom/pots/bush_spruce"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 122
+      },
+      "model": "minecraft:custom/pots/bush_birch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 123
+      },
+      "model": "minecraft:custom/pots/bush_dark_oak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 123
+      },
+      "model": "minecraft:custom/pots/bush_dead"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 124
+      },
+      "model": "minecraft:custom/bar/dark_bar_stool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 125
+      },
+      "model": "minecraft:custom/bar/dark_bar_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 126
+      },
+      "model": "minecraft:custom/bar/fancy_stool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 127
+      },
+      "model": "minecraft:custom/bar/mug1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 128
+      },
+      "model": "minecraft:custom/bar/mug2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 129
+      },
+      "model": "minecraft:custom/bar/mug_pyramid1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 130
+      },
+      "model": "minecraft:custom/bar/mug_pyramid2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 131
+      },
+      "model": "minecraft:custom/bar/mug_stack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 132
+      },
+      "model": "minecraft:custom/bar/mug_beer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133
+      },
+      "model": "minecraft:custom/bar/mug_beer_full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 134
+      },
+      "model": "minecraft:custom/bar/mug_dangerous"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 135
+      },
+      "model": "minecraft:custom/bar/mug_spilled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 136
+      },
+      "model": "minecraft:custom/bar/mug_shelf"
     },
     {
       "predicate": {
