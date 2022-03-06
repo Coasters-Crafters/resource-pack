@@ -138,6 +138,20 @@
       "type": "bitmap",
       "file": "custom/ui/pixel_split.png",
       "ascent": -32768,
+      "height": -10,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "custom/ui/pixel_split.png",
+      "ascent": -32768,
+      "height": -11,
+      "chars": ["ꢭ"]
+    },
+    {
+      "type": "bitmap",
+      "file": "custom/ui/pixel_split.png",
+      "ascent": -32768,
       "height": -18,
       "chars": [""]
     },
