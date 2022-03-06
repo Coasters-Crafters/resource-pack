@@ -433,7 +433,7 @@
       "file": "custom/ui/pixel_nosplit.png",
       "ascent": -32768,
       "height": 3,
-      "chars": [""]/
+      "chars": [""]
     },
     {
       "type": "bitmap",
