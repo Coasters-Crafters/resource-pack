@@ -91,6 +91,12 @@
 			}
 		}
 	],
+	"display": {
+		"head": {
+			"translation": [0, -30, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
 	"groups": [
 		{
 			"name": "bone23",

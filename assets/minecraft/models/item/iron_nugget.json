@@ -240,6 +240,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 138
+      },
+      "model": "minecraft:custom/furniture/bench"
+    },
+    {
+      "predicate": {
         "custom_model_data": 200
       },
       "model": "minecraft:custom/coaster_logo_left"
