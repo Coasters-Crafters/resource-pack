@@ -13,6 +13,8 @@
     "note=11": { "model": "block/note_block/floor/jungle" },
     "note=12": { "model": "block/note_block/floor/bus_lane" },
     "note=13": { "model": "block/note_block/stones/cracked_lodestone" },
-    "note=14": { "model": "block/note_block/stones/white_pebbles" }
+    "note=14": { "model": "block/note_block/stones/white_pebbles" },
+    "note=15": { "model": "block/note_block/extralife/blue_bricks" },
+    "note=16": { "model": "block/note_block/extralife/blue_pillar" }
   }
 }
