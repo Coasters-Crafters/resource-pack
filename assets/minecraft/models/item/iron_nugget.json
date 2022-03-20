@@ -333,6 +333,78 @@
         "custom_model_data": 401
       },
       "model": "minecraft:custom/covers/diorite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500
+      },
+      "model": "minecraft:custom/chess/black_bishop"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 501
+      },
+      "model": "minecraft:custom/chess/black_king"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 502
+      },
+      "model": "minecraft:custom/chess/black_knight"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 503
+      },
+      "model": "minecraft:custom/chess/black_pawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 504
+      },
+      "model": "minecraft:custom/chess/black_queen"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 505
+      },
+      "model": "minecraft:custom/chess/black_rook"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 506
+      },
+      "model": "minecraft:custom/chess/white_bishop"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 507
+      },
+      "model": "minecraft:custom/chess/white_king"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 508
+      },
+      "model": "minecraft:custom/chess/white_knight"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 509
+      },
+      "model": "minecraft:custom/chess/white_pawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 510
+      },
+      "model": "minecraft:custom/chess/white_queen"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 511
+      },
+      "model": "minecraft:custom/chess/white_rook"
     }
   ]
 }
