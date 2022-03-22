@@ -30,6 +30,33 @@
     "note=10,instrument=banjo": {
       "model": "block/note_block/road/white_west_east"
     },
+    "note=11,instrument=banjo": {
+      "model": "block/note_block/road/white_cross"
+    },
+    "note=12,instrument=banjo": {
+      "model": "block/note_block/road/white_t_north"
+    },
+    "note=13,instrument=banjo": {
+      "model": "block/note_block/road/white_t_east"
+    },
+    "note=14,instrument=banjo": {
+      "model": "block/note_block/road/white_t_south"
+    },
+    "note=15,instrument=banjo": {
+      "model": "block/note_block/road/white_t_west"
+    },
+    "note=16,instrument=banjo": {
+      "model": "block/note_block/road/white_dot_north_east"
+    },
+    "note=17,instrument=banjo": {
+      "model": "block/note_block/road/white_dot_north_west"
+    },
+    "note=18,instrument=banjo": {
+      "model": "block/note_block/road/white_dot_south_east"
+    },
+    "note=19,instrument=banjo": {
+      "model": "block/note_block/road/white_dot_south_west"
+    },
 
     "instrument=bass,note=1": { "model": "block/note_block/stones/slate" },
     "instrument=snare,note=1": { "model": "block/note_block/stones/slate" },
