@@ -31,6 +31,12 @@
 			}
 		}
 	],
+	"display": {
+		"head": {
+			"translation": [0, 3, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
 	"groups": [
 		{
 			"name": "bone3",
