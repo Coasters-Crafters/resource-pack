@@ -74,7 +74,7 @@
     {
       "type": "bitmap",
       "file": "custom/ui/location-pin.png",
-      "ascent": 7,
+      "ascent": 7.5,
       "height": 9,
       "chars": ["ꢶ"]
     },
