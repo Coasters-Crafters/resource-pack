@@ -318,6 +318,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 212
+            },
+            "model": "minecraft:custom/gg_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 213
+            },
+            "model": "minecraft:custom/gg_right"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 300
             },
             "model": "minecraft:custom/cosmetics/jackie_glasses"
@@ -423,18 +435,6 @@
                 "custom_model_data": 511
             },
             "model": "minecraft:custom/chess/white_rook"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 512
-            },
-            "model": "minecraft:custom/gg_left"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 513
-            },
-            "model": "minecraft:custom/gg_right"
         }
     ]
 }
