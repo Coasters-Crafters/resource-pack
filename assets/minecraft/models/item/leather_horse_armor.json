@@ -45,6 +45,12 @@
         "custom_model_data": 7
       },
       "model": "minecraft:custom/furniture/awning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "minecraft:custom/furniture/big_deck_chair"
     }
   ]
 }
