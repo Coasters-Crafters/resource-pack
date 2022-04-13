@@ -676,6 +676,9 @@
     },
     "instrument=harp,note=16": {
       "model": "block/note_block/extralife/blue_pillar"
+    },
+    "instrument=harp,note=17": {
+      "model": "block/note_block/floor/red_rug"
     }
   }
 }

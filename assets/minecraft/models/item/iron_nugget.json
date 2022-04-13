@@ -435,6 +435,12 @@
                 "custom_model_data": 511
             },
             "model": "minecraft:custom/chess/white_rook"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 512
+            },
+            "model": "minecraft:custom/bellhop"
         }
     ]
 }
