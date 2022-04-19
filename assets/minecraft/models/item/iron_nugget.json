@@ -348,6 +348,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 410
+            },
+            "model": "minecraft:custom/notches/oak_notch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 411
+            },
+            "model": "minecraft:custom/notches/spruce_notch"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 402
             },
             "model": "minecraft:custom/blank"
