@@ -1,684 +1,773 @@
 {
-  "variants": {
-    "note=1,instrument=banjo": {
-      "model": "block/note_block/road/white_corner_north_east"
-    },
-    "note=2,instrument=banjo": {
-      "model": "block/note_block/road/white_corner_east_south"
-    },
-    "note=3,instrument=banjo": {
-      "model": "block/note_block/road/white_corner_south_west"
-    },
-    "note=4,instrument=banjo": {
-      "model": "block/note_block/road/white_corner_west_north"
-    },
-    "note=5,instrument=banjo": {
-      "model": "block/note_block/road/white_north"
-    },
-    "note=6,instrument=banjo": {
-      "model": "block/note_block/road/white_east"
-    },
-    "note=7,instrument=banjo": {
-      "model": "block/note_block/road/white_south"
-    },
-    "note=8,instrument=banjo": {
-      "model": "block/note_block/road/white_west"
-    },
-    "note=9,instrument=banjo": {
-      "model": "block/note_block/road/white_north_south"
-    },
-    "note=10,instrument=banjo": {
-      "model": "block/note_block/road/white_west_east"
-    },
-    "note=11,instrument=banjo": {
-      "model": "block/note_block/road/white_cross"
-    },
-    "note=12,instrument=banjo": {
-      "model": "block/note_block/road/white_t_north"
-    },
-    "note=13,instrument=banjo": {
-      "model": "block/note_block/road/white_t_east"
-    },
-    "note=14,instrument=banjo": {
-      "model": "block/note_block/road/white_t_south"
-    },
-    "note=15,instrument=banjo": {
-      "model": "block/note_block/road/white_t_west"
-    },
-    "note=16,instrument=banjo": {
-      "model": "block/note_block/road/white_dot_north_east"
-    },
-    "note=17,instrument=banjo": {
-      "model": "block/note_block/road/white_dot_north_west"
-    },
-    "note=18,instrument=banjo": {
-      "model": "block/note_block/road/white_dot_south_east"
-    },
-    "note=19,instrument=banjo": {
-      "model": "block/note_block/road/white_dot_south_west"
-    },
+    "variants": {
+        "note=1,instrument=banjo": {
+            "model": "block/note_block/road/white_corner_north_east"
+        },
+        "note=2,instrument=banjo": {
+            "model": "block/note_block/road/white_corner_east_south"
+        },
+        "note=3,instrument=banjo": {
+            "model": "block/note_block/road/white_corner_south_west"
+        },
+        "note=4,instrument=banjo": {
+            "model": "block/note_block/road/white_corner_west_north"
+        },
+        "note=5,instrument=banjo": {
+            "model": "block/note_block/road/white_north"
+        },
+        "note=6,instrument=banjo": {
+            "model": "block/note_block/road/white_east"
+        },
+        "note=7,instrument=banjo": {
+            "model": "block/note_block/road/white_south"
+        },
+        "note=8,instrument=banjo": {
+            "model": "block/note_block/road/white_west"
+        },
+        "note=9,instrument=banjo": {
+            "model": "block/note_block/road/white_north_south"
+        },
+        "note=10,instrument=banjo": {
+            "model": "block/note_block/road/white_west_east"
+        },
+        "note=11,instrument=banjo": {
+            "model": "block/note_block/road/white_cross"
+        },
+        "note=12,instrument=banjo": {
+            "model": "block/note_block/road/white_t_north"
+        },
+        "note=13,instrument=banjo": {
+            "model": "block/note_block/road/white_t_east"
+        },
+        "note=14,instrument=banjo": {
+            "model": "block/note_block/road/white_t_south"
+        },
+        "note=15,instrument=banjo": {
+            "model": "block/note_block/road/white_t_west"
+        },
+        "note=16,instrument=banjo": {
+            "model": "block/note_block/road/white_dot_north_east"
+        },
+        "note=17,instrument=banjo": {
+            "model": "block/note_block/road/white_dot_north_west"
+        },
+        "note=18,instrument=banjo": {
+            "model": "block/note_block/road/white_dot_south_east"
+        },
+        "note=19,instrument=banjo": {
+            "model": "block/note_block/road/white_dot_south_west"
+        },
 
-    "instrument=bass,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=snare,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=hat,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=basedrum,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=bell,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=flute,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=chime,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=guitar,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=xylophone,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=iron_xylophone,note=1": {
-      "model": "block/note_block/stones/slate"
-    },
-    "instrument=cow_bell,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=didgeridoo,note=1": {
-      "model": "block/note_block/stones/slate"
-    },
-    "instrument=bit,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=pling,note=1": { "model": "block/note_block/stones/slate" },
-    "instrument=harp,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=bass,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=snare,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=hat,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=basedrum,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=bell,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=flute,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=chime,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=guitar,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=xylophone,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=iron_xylophone,note=1": {
+            "model": "block/note_block/stones/slate"
+        },
+        "instrument=cow_bell,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=didgeridoo,note=1": {
+            "model": "block/note_block/stones/slate"
+        },
+        "instrument=bit,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=pling,note=1": { "model": "block/note_block/stones/slate" },
+        "instrument=harp,note=1": { "model": "block/note_block/stones/slate" },
 
-    "instrument=bass,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=snare,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=hat,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=basedrum,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=bell,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=flute,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=chime,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=guitar,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=xylophone,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=iron_xylophone,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=cow_bell,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=didgeridoo,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=bit,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=pling,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
-    "instrument=harp,note=2": {
-      "model": "block/note_block/stones/slate_bricks"
-    },
+        "instrument=bass,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=snare,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=hat,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=basedrum,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=bell,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=flute,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=chime,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=guitar,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=xylophone,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=iron_xylophone,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=cow_bell,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=didgeridoo,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=bit,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=pling,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
+        "instrument=harp,note=2": {
+            "model": "block/note_block/stones/slate_bricks"
+        },
 
-    "instrument=bass,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=snare,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=hat,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=basedrum,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=bell,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=flute,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=chime,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=guitar,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=xylophone,note=3": {
-      "model": "block/note_block/stones/marble"
-    },
-    "instrument=iron_xylophone,note=3": {
-      "model": "block/note_block/stones/marble"
-    },
-    "instrument=cow_bell,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=didgeridoo,note=3": {
-      "model": "block/note_block/stones/marble"
-    },
-    "instrument=bit,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=pling,note=3": { "model": "block/note_block/stones/marble" },
-    "instrument=harp,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=bass,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=snare,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=hat,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=basedrum,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=bell,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=flute,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=chime,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=guitar,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=xylophone,note=3": {
+            "model": "block/note_block/stones/marble"
+        },
+        "instrument=iron_xylophone,note=3": {
+            "model": "block/note_block/stones/marble"
+        },
+        "instrument=cow_bell,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=didgeridoo,note=3": {
+            "model": "block/note_block/stones/marble"
+        },
+        "instrument=bit,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=pling,note=3": { "model": "block/note_block/stones/marble" },
+        "instrument=harp,note=3": { "model": "block/note_block/stones/marble" },
 
-    "instrument=bass,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=snare,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=hat,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=basedrum,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=bell,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=flute,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=chime,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=guitar,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=xylophone,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=iron_xylophone,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=cow_bell,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=didgeridoo,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=bit,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=pling,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
-    "instrument=harp,note=4": {
-      "model": "block/note_block/stones/polished_marble"
-    },
+        "instrument=bass,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=snare,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=hat,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=basedrum,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=bell,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=flute,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=chime,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=guitar,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=xylophone,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=iron_xylophone,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=cow_bell,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=didgeridoo,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=bit,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=pling,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
+        "instrument=harp,note=4": {
+            "model": "block/note_block/stones/polished_marble"
+        },
 
-    "instrument=bass,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=snare,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=hat,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=basedrum,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=bell,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=flute,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=chime,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=guitar,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=xylophone,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=iron_xylophone,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=cow_bell,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=didgeridoo,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=bit,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=pling,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
-    "instrument=harp,note=5": {
-      "model": "block/note_block/stones/marble_bricks"
-    },
+        "instrument=bass,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=snare,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=hat,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=basedrum,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=bell,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=flute,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=chime,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=guitar,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=xylophone,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=iron_xylophone,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=cow_bell,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=didgeridoo,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=bit,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=pling,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
+        "instrument=harp,note=5": {
+            "model": "block/note_block/stones/marble_bricks"
+        },
 
-    "instrument=bass,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=snare,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=hat,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=basedrum,note=6": {
-      "model": "block/note_block/stones/limestone"
-    },
-    "instrument=bell,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=flute,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=chime,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=guitar,note=6": {
-      "model": "block/note_block/stones/limestone"
-    },
-    "instrument=xylophone,note=6": {
-      "model": "block/note_block/stones/limestone"
-    },
-    "instrument=iron_xylophone,note=6": {
-      "model": "block/note_block/stones/limestone"
-    },
-    "instrument=cow_bell,note=6": {
-      "model": "block/note_block/stones/limestone"
-    },
-    "instrument=didgeridoo,note=6": {
-      "model": "block/note_block/stones/limestone"
-    },
-    "instrument=bit,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=pling,note=6": { "model": "block/note_block/stones/limestone" },
-    "instrument=harp,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=bass,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=snare,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=hat,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=basedrum,note=6": {
+            "model": "block/note_block/stones/limestone"
+        },
+        "instrument=bell,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=flute,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=chime,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=guitar,note=6": {
+            "model": "block/note_block/stones/limestone"
+        },
+        "instrument=xylophone,note=6": {
+            "model": "block/note_block/stones/limestone"
+        },
+        "instrument=iron_xylophone,note=6": {
+            "model": "block/note_block/stones/limestone"
+        },
+        "instrument=cow_bell,note=6": {
+            "model": "block/note_block/stones/limestone"
+        },
+        "instrument=didgeridoo,note=6": {
+            "model": "block/note_block/stones/limestone"
+        },
+        "instrument=bit,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=pling,note=6": { "model": "block/note_block/stones/limestone" },
+        "instrument=harp,note=6": { "model": "block/note_block/stones/limestone" },
 
-    "instrument=bass,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=snare,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=hat,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=basedrum,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=bell,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=flute,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=chime,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=guitar,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=xylophone,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=iron_xylophone,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=cow_bell,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=didgeridoo,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=bit,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=pling,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
-    "instrument=harp,note=7": {
-      "model": "block/note_block/stones/limestone_bricks"
-    },
+        "instrument=bass,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=snare,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=hat,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=basedrum,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=bell,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=flute,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=chime,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=guitar,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=xylophone,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=iron_xylophone,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=cow_bell,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=didgeridoo,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=bit,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=pling,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
+        "instrument=harp,note=7": {
+            "model": "block/note_block/stones/limestone_bricks"
+        },
 
-    "instrument=bass,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=snare,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=hat,note=8": { "model": "block/note_block/stones/cornerstone" },
-    "instrument=basedrum,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=bell,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=flute,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=chime,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=guitar,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=xylophone,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=iron_xylophone,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=cow_bell,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=didgeridoo,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=bit,note=8": { "model": "block/note_block/stones/cornerstone" },
-    "instrument=pling,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
-    "instrument=harp,note=8": {
-      "model": "block/note_block/stones/cornerstone"
-    },
+        "instrument=bass,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=snare,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=hat,note=8": { "model": "block/note_block/stones/cornerstone" },
+        "instrument=basedrum,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=bell,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=flute,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=chime,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=guitar,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=xylophone,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=iron_xylophone,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=cow_bell,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=didgeridoo,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=bit,note=8": { "model": "block/note_block/stones/cornerstone" },
+        "instrument=pling,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
+        "instrument=harp,note=8": {
+            "model": "block/note_block/stones/cornerstone"
+        },
 
-    "instrument=bass,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=snare,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=hat,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=basedrum,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=bell,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=flute,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=chime,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=guitar,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=xylophone,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=iron_xylophone,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=cow_bell,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=didgeridoo,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=bit,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=pling,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
-    "instrument=harp,note=9": {
-      "model": "block/note_block/stones/stone_pillar"
-    },
+        "instrument=bass,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=snare,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=hat,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=basedrum,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=bell,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=flute,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=chime,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=guitar,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=xylophone,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=iron_xylophone,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=cow_bell,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=didgeridoo,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=bit,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=pling,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
+        "instrument=harp,note=9": {
+            "model": "block/note_block/stones/stone_pillar"
+        },
 
-    "instrument=bass,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=snare,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=hat,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=basedrum,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=bell,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=flute,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=chime,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=guitar,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=xylophone,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=iron_xylophone,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=cow_bell,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=didgeridoo,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=bit,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=pling,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
-    "instrument=harp,note=10": {
-      "model": "block/note_block/stones/small_stone_bricks"
-    },
+        "instrument=bass,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=snare,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=hat,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=basedrum,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=bell,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=flute,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=chime,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=guitar,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=xylophone,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=iron_xylophone,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=cow_bell,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=didgeridoo,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=bit,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=pling,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
+        "instrument=harp,note=10": {
+            "model": "block/note_block/stones/small_stone_bricks"
+        },
 
-    "instrument=bass,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=snare,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=hat,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=basedrum,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=bell,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=flute,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=chime,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=guitar,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=xylophone,note=11": {
-      "model": "block/note_block/floor/jungle"
-    },
-    "instrument=iron_xylophone,note=11": {
-      "model": "block/note_block/floor/jungle"
-    },
-    "instrument=cow_bell,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=didgeridoo,note=11": {
-      "model": "block/note_block/floor/jungle"
-    },
-    "instrument=bit,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=pling,note=11": { "model": "block/note_block/floor/jungle" },
-    "instrument=harp,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=bass,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=snare,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=hat,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=basedrum,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=bell,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=flute,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=chime,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=guitar,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=xylophone,note=11": {
+            "model": "block/note_block/floor/jungle"
+        },
+        "instrument=iron_xylophone,note=11": {
+            "model": "block/note_block/floor/jungle"
+        },
+        "instrument=cow_bell,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=didgeridoo,note=11": {
+            "model": "block/note_block/floor/jungle"
+        },
+        "instrument=bit,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=pling,note=11": { "model": "block/note_block/floor/jungle" },
+        "instrument=harp,note=11": { "model": "block/note_block/floor/jungle" },
 
-    "instrument=bass,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=snare,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=hat,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=basedrum,note=12": {
-      "model": "block/note_block/floor/bus_lane"
-    },
-    "instrument=bell,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=flute,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=chime,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=guitar,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=xylophone,note=12": {
-      "model": "block/note_block/floor/bus_lane"
-    },
-    "instrument=iron_xylophone,note=12": {
-      "model": "block/note_block/floor/bus_lane"
-    },
-    "instrument=cow_bell,note=12": {
-      "model": "block/note_block/floor/bus_lane"
-    },
-    "instrument=didgeridoo,note=12": {
-      "model": "block/note_block/floor/bus_lane"
-    },
-    "instrument=bit,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=pling,note=12": { "model": "block/note_block/floor/bus_lane" },
-    "instrument=harp,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=bass,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=snare,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=hat,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=basedrum,note=12": {
+            "model": "block/note_block/floor/bus_lane"
+        },
+        "instrument=bell,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=flute,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=chime,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=guitar,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=xylophone,note=12": {
+            "model": "block/note_block/floor/bus_lane"
+        },
+        "instrument=iron_xylophone,note=12": {
+            "model": "block/note_block/floor/bus_lane"
+        },
+        "instrument=cow_bell,note=12": {
+            "model": "block/note_block/floor/bus_lane"
+        },
+        "instrument=didgeridoo,note=12": {
+            "model": "block/note_block/floor/bus_lane"
+        },
+        "instrument=bit,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=pling,note=12": { "model": "block/note_block/floor/bus_lane" },
+        "instrument=harp,note=12": { "model": "block/note_block/floor/bus_lane" },
 
-    "instrument=bass,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=snare,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=hat,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=basedrum,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=bell,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=flute,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=chime,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=guitar,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=xylophone,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=iron_xylophone,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=cow_bell,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=didgeridoo,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=bit,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=pling,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
-    "instrument=harp,note=13": {
-      "model": "block/note_block/stones/cracked_lodestone"
-    },
+        "instrument=bass,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=snare,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=hat,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=basedrum,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=bell,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=flute,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=chime,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=guitar,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=xylophone,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=iron_xylophone,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=cow_bell,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=didgeridoo,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=bit,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=pling,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
+        "instrument=harp,note=13": {
+            "model": "block/note_block/stones/cracked_lodestone"
+        },
 
-    "instrument=bass,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=snare,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=hat,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=basedrum,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=bell,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=flute,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=chime,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=guitar,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=xylophone,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=iron_xylophone,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=cow_bell,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=didgeridoo,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=bit,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=pling,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
-    "instrument=harp,note=14": {
-      "model": "block/note_block/stones/white_pebbles"
-    },
+        "instrument=bass,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=snare,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=hat,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=basedrum,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=bell,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=flute,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=chime,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=guitar,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=xylophone,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=iron_xylophone,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=cow_bell,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=didgeridoo,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=bit,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=pling,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
+        "instrument=harp,note=14": {
+            "model": "block/note_block/stones/white_pebbles"
+        },
 
-    "instrument=bass,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=snare,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=hat,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=basedrum,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=bell,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=flute,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=chime,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=guitar,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=xylophone,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=iron_xylophone,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=cow_bell,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=didgeridoo,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=bit,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=pling,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
-    "instrument=harp,note=15": {
-      "model": "block/note_block/extralife/blue_bricks"
-    },
+        "instrument=bass,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=snare,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=hat,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=basedrum,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=bell,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=flute,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=chime,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=guitar,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=xylophone,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=iron_xylophone,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=cow_bell,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=didgeridoo,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=bit,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=pling,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
+        "instrument=harp,note=15": {
+            "model": "block/note_block/extralife/blue_bricks"
+        },
 
-    "instrument=bass,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=snare,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=hat,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=basedrum,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=bell,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=flute,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=chime,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=guitar,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=xylophone,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=iron_xylophone,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=cow_bell,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=didgeridoo,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=bit,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=pling,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=harp,note=16": {
-      "model": "block/note_block/extralife/blue_pillar"
-    },
-    "instrument=harp,note=17": {
-      "model": "block/note_block/floor/red_rug"
+        "instrument=bass,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=snare,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=hat,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=basedrum,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=bell,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=flute,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=chime,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=guitar,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=xylophone,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=iron_xylophone,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=cow_bell,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=didgeridoo,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=bit,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=pling,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+        "instrument=harp,note=16": {
+            "model": "block/note_block/extralife/blue_pillar"
+        },
+
+        "instrument=bass,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=snare,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=hat,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=basedrum,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=bell,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=flute,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=chime,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=guitar,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=xylophone,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=iron_xylophone,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=cow_bell,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=didgeridoo,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=bit,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=pling,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+        "instrument=harp,note=17": {
+            "model": "block/note_block/floor/red_rug"
+        },
+
+        "instrument=bass,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=snare,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=hat,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=basedrum,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=bell,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=flute,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=chime,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=guitar,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=xylophone,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=iron_xylophone,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=cow_bell,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=didgeridoo,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=bit,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=pling,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=harp,note=18": {
+            "model": "block/note_block/floor/bike_lane"
+        }
     }
-  }
 }
