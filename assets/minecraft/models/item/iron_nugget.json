@@ -246,6 +246,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 139
+            },
+            "model": "minecraft:custom/furniture/wall_tv_wall"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 199
+            },
+            "model": "minecraft:custom/furniture/bench"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 200
             },
             "model": "minecraft:custom/coaster_logo_left"
