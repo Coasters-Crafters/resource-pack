@@ -248,7 +248,7 @@
             "predicate": {
                 "custom_model_data": 139
             },
-            "model": "minecraft:custom/furniture/wall_tv_wall"
+            "model": "minecraft:custom/bike"
         },
         {
             "predicate": {
@@ -474,7 +474,7 @@
         },
         {
             "predicate": {
-                "custom_model_data": 513
+                "custom_model_data": 514
             },
             "model": "minecraft:custom/cc_2022_banner"
         }
