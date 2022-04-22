@@ -768,6 +768,9 @@
         },
         "instrument=harp,note=18": {
             "model": "block/note_block/floor/bike_lane"
+        },
+        "instrument=harp,note=18": {
+            "model": "block/note_block/floor/blue_rug"
         }
     }
 }
