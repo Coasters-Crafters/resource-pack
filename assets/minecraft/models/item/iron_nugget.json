@@ -471,6 +471,12 @@
                 "custom_model_data": 513
             },
             "model": "minecraft:custom/furniture/red_low_couch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 513
+            },
+            "model": "minecraft:custom/cc_2022_banner"
         }
     ]
 }
