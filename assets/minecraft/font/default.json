@@ -159,6 +159,13 @@
         },
         {
             "type": "bitmap",
+            "file": "custom/ui/clock.png",
+            "ascent": 7.5,
+            "height": 9,
+            "chars": ["ꈁ"]
+        },
+        {
+            "type": "bitmap",
             "file": "custom/ui/esc.png",
             "ascent": -12,
             "height": 50,
