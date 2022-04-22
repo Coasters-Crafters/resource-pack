@@ -769,7 +769,50 @@
         "instrument=harp,note=18": {
             "model": "block/note_block/floor/bike_lane"
         },
-        "instrument=harp,note=18": {
+
+        "instrument=bass,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=snare,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=hat,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=basedrum,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=bell,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=flute,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=chime,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=guitar,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=xylophone,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=iron_xylophone,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=cow_bell,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=didgeridoo,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=bit,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=pling,note=19": {
+            "model": "block/note_block/floor/blue_rug"
+        },
+        "instrument=harp,note=19": {
             "model": "block/note_block/floor/blue_rug"
         }
     }
