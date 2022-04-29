@@ -642,6 +642,13 @@
         },
         {
             "type": "bitmap",
+            "file": "custom/ui/error.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["膣冈鏻鎓矣耩", "纤缎缍绗缴缵"]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:font/nonlatin_european.png",
             "ascent": 7,
             "chars": [
