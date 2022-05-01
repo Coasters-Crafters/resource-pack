@@ -14,14 +14,12 @@ jobs:
               uses: actions/checkout@v2
               with:
                   fetch-depth: 0
-            - name: Lint Code Base
-              uses: github/super-linter@v4
-              env:
-                  VALIDATE_ALL_CODEBASE: false
-                  VALIDATE_YAML: true
-                  VALIDATE_JSON: true
-                  DEFAULT_BRANCH: main
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              - name: Lint JSON
+                uses: anyone-developer/anyone-validate-json@main
+                with:
+                  file-extension: '.json'
+                  ignore-directories: '.git'
+                  read-path: './'
     build:
         name: Compress and Send Pack
         needs: [lint]
@@ -44,7 +42,7 @@ jobs:
               continue-on-error: true
               run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \; 2>/dev/null
             - name: Compress pack
-              run: zip -8 -r -X  CoasterConPack.zip *
+              run: zip -8 -r -X CoasterConResoucePack-${PACK_VERSION}.zip *
             - name: Get Pack Hash
               run: echo "::set-output name=PACK_HASH::$(shasum latest.zip | awk '{ print $1 }')"
             - name: Generate release diff
@@ -52,7 +50,7 @@ jobs:
             - name: Create release
               uses: ncipollo/release-action@v1
               with:
-                  artifacts: CoasterConPack.zip
+                  artifacts: CoasterConResoucePack-${PACK_VERSION}.zip
                   allowUpdates: true
                   bodyFile: "release_notes.md"
                   draft: false
@@ -63,4 +61,4 @@ jobs:
               env:
                   PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
               run: |
-                  curl "https://panel.expeditionisles.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "con updatepack https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConPack.zip ${PACK_HASH}"}'
+                  curl "https://panel.expeditionisles.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "con updatepack https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${PACK_VERSION}.zip ${PACK_HASH}"}'
