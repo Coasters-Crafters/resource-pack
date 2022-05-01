@@ -25,7 +25,7 @@ jobs:
               with:
                   fetch-depth: 0
             - name: Get pack version from pack.mcmeta
-              id: lookupPackVersion
+              id: packVersion
               run: echo "::set-output name=PACK_VERSION::$(jq -r .pack.version pack.mcmeta)"
             - name: Insert Pack Version
               run: |
@@ -38,23 +38,24 @@ jobs:
               continue-on-error: true
               run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \; 2>/dev/null
             - name: Compress pack
-              run: zip -8 -r -X CoasterConResoucePack-${PACK_VERSION}.zip *
+              run: zip -8 -r -X CoasterConResoucePack-${{ steps.packVersion.outputs.PACK_VERSION }}.zip *
             - name: Get Pack Hash
+              id: packHash
               run: echo "::set-output name=PACK_HASH::$(shasum latest.zip | awk '{ print $1 }')"
             - name: Generate release diff
               run: git fetch --tags --force && git log --pretty=format:"* %s (%h)" ${{ github.event.before }}..${{ github.event.after }} > release_notes.md
             - name: Create release
               uses: ncipollo/release-action@v1
               with:
-                  artifacts: CoasterConResoucePack-*.zip
+                  artifacts: CoasterConResoucePack-${{ steps.packVersion.outputs.PACK_VERSION }}.zip
                   allowUpdates: true
                   bodyFile: "release_notes.md"
                   draft: false
                   prerelease: false
-                  tag: ${{ steps.lookupPackVersion.outputs.PACK_VERSION }}
+                  tag: ${{ steps.packVersion.outputs.PACK_VERSION }}
                   token: ${{ secrets.GITHUB_TOKEN }}
             - name: Update pack on server
               env:
                   PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
               run: |
-                  curl "https://panel.expeditionisles.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "con updatepack https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${PACK_VERSION}.zip ${PACK_HASH}"}'
+                  curl "https://panel.expeditionisles.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "con updatepack https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${{ steps.packVersion.outputs.PACK_VERSION }}.zip ${{ steps.packHash.outputs.PACK_HASH }}"}'
