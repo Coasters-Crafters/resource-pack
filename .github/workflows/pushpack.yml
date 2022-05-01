@@ -20,7 +20,7 @@ jobs:
                   VALIDATE_ALL_CODEBASE: false
                   VALIDATE_YAML: true
                   VALIDATE_JSON: true
-                  DEFAULT_BRANCH: master
+                  DEFAULT_BRANCH: main
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     build:
         name: Compress and Send Pack
