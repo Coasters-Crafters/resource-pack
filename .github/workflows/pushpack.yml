@@ -14,12 +14,12 @@ jobs:
               uses: actions/checkout@v2
               with:
                   fetch-depth: 0
-              - name: Lint JSON
-                uses: anyone-developer/anyone-validate-json@main
-                with:
-                  file-extension: '.json'
-                  ignore-directories: '.git'
-                  read-path: './'
+            - name: Lint JSON
+              uses: anyone-developer/anyone-validate-json@main
+              with:
+                  file-extension: ".json"
+                  ignore-directories: ".git"
+                  read-path: "./"
     build:
         name: Compress and Send Pack
         needs: [lint]
