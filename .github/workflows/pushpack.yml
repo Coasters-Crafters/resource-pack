@@ -42,6 +42,8 @@ jobs:
               run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \; 2>/dev/null
             - name: Compress pack
               run: zip -8 -r -X  CoasterConPack.zip *
+            - name: Get Pack Hash
+              run: echo "::set-output name=PACK_HASH::$(shasum latest.zip | awk '{ print $1 }')"
             - name: Generate release diff
               run: git fetch --tags --force && git log --pretty=format:"* %s (%h)" ${{ github.event.before }}..${{ github.event.after }} > release_notes.md
             - name: Create release
@@ -58,4 +60,4 @@ jobs:
               env:
                   PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
               run: |
-                  curl "https://panel.paradisu.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}'
+                  curl "https://panel.expeditionisles.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "updatepack https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConPack.zip ${PACK_HASH}"}'
