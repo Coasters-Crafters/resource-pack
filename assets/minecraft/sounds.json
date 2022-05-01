@@ -1,12 +1,8 @@
 {
-	"fart": {
-		"sounds": [
-			"fart"
-		]
-	},
-	"elevator": {
-		"sounds": [
-			"elevator""
-		]
-	}
+    "fart": {
+        "sounds": ["fart"]
+    },
+    "elevator": {
+        "sounds": ["elevator"]
+    }
 }
