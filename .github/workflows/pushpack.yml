@@ -31,7 +31,7 @@ jobs:
               with:
                   fetch-depth: 0
             - name: Get pack version from pack.mcmeta
-              id: Lookup Pack Version
+              id: lookupPackVersion
               run: echo "::set-output name=PACK_VERSION::$(jq -r .pack.version pack.mcmeta)"
             - name: Insert Pack Version
               run: |
