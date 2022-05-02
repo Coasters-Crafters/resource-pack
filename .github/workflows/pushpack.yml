@@ -62,13 +62,4 @@ jobs:
                   PACK_VERSION: ${{ steps.packVersion.outputs.PACK_VERSION }}
                   PACK_HASH: ${{ steps.packHash.outputs.PACK_HASH }}
               run: |
-                  echo "
-                  {
-                    \"channel\": 2,
-                    \"type\": 3,
-                    \"payload\": {
-                      \"url\": \"https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${PACK_VERSION}.zip\",
-                      \"hash\": \"${PACK_HASH}\"
-                    }
-                  }
-                  " | websocat wss://producer.coastersandcrafters.com --protocol ${WEBSOCKET_SECRET} --text
+                  echo "{\"channel\": 2,\"type\": 3,\"payload\": {\"url\": \"https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${PACK_VERSION}.zip\", \"hash\": \"${PACK_HASH}\"}}" | websocat wss://producer.coastersandcrafters.com --protocol ${WEBSOCKET_SECRET} --text
