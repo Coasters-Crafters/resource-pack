@@ -41,7 +41,7 @@ jobs:
               run: zip -8 -r -X CoasterConResoucePack-${{ steps.packVersion.outputs.PACK_VERSION }}.zip *
             - name: Get Pack Hash
               id: packHash
-              run: echo "::set-output name=PACK_HASH::$(shasum latest.zip | awk '{ print $1 }')"
+              run: echo "::set-output name=PACK_HASH::$(shasum *.zip | awk '{ print $1 }')"
             - name: Generate release diff
               run: git fetch --tags --force && git log --pretty=format:"* %s (%h)" ${{ github.event.before }}..${{ github.event.after }} > release_notes.md
             - name: Create release
