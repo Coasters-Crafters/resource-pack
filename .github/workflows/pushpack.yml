@@ -54,8 +54,21 @@ jobs:
                   prerelease: false
                   tag: ${{ steps.packVersion.outputs.PACK_VERSION }}
                   token: ${{ secrets.GITHUB_TOKEN }}
-            - name: Update pack on server
+            - name: Install websocat
+              run: wget https://github.com/vi/websocat/releases/download/v1.9.0/websocat_linux64 && sudo chmod +x websocat_linux64 && sudo mv websocat_linux64 /usr/bin/websocat
+            - name: Send Pack to Server
               env:
-                  PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
+                  WEBSOCKET_SECRET: ${{ secrets.WEBSOCKET_SECRET }}
+                  PACK_VERSION: ${{ steps.packVersion.outputs.PACK_VERSION }}
+                  PACK_HASH: ${{ steps.packHash.outputs.PACK_HASH }}
               run: |
-                  curl "https://panel.expeditionisles.net/api/client/servers/e7dee6d1/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "con updatepack https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${{ steps.packVersion.outputs.PACK_VERSION }}.zip ${{ steps.packHash.outputs.PACK_HASH }}"}'
+                  echo "
+                  {
+                    \"channel\": 2,
+                    \"type\": 3,
+                    \"payload\": {
+                      \"url\": \"https://github.com/Coasters-Crafters/resource-pack/releases/latest/download/CoasterConResoucePack-${PACK_VERSION}.zip\",
+                      \"hash\": \"${PACK_HASH}\"
+                    }
+                  }
+                  " | websocat wss://producer.coastersandcrafters.com --protocol ${WEBSOCKET_SECRET} --text

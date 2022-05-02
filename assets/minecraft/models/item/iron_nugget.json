@@ -252,6 +252,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 140
+            },
+            "model": "minecraft:custom/mixer"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 141
+            },
+            "model": "minecraft:custom/mixer-deck"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 199
             },
             "model": "minecraft:custom/furniture/bench"
