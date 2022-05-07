@@ -1,1 +1,5 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/gold_nugget"},"overrides":[{"predicate":{"custom_model_data":1},"model":"./resource-pack/assets/minecraft/models/server/1/model.json"},{"predicate":{"custom_model_data":2},"model":"server/1/model"},{"predicate":{"custom_model_data":3},"model":"minecraft:server/1/model"},{"predicate":{"custom_model_data":4},"model":"minecraft:server/1/model"},{"predicate":{"custom_model_data":5},"model":"minecraft:server/1/model"}]}
+{
+    "parent": "minecraft:item/generated",
+    "textures": { "layer0": "minecraft:item/gold_nugget" },
+    "overrides": []
+}
