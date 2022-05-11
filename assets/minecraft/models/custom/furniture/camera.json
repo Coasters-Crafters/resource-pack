@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "custom/camera",
@@ -191,7 +190,7 @@
 		{
 			"name": "flare_1",
 			"from": [6.5, 6.5, 6.5],
-			"to": [9.5, 6.5, 9.5],
+			"to": [9.5, 6.525, 9.5],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6.5, 8]},
 			"faces": {
 				"north": {"uv": [10.75, 0.75, 11.5, 0.75], "texture": "#0"},
@@ -205,7 +204,7 @@
 		{
 			"name": "flare_2",
 			"from": [7, 7, 7],
-			"to": [9, 7, 9],
+			"to": [9, 7.025, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 7, 8.5]},
 			"faces": {
 				"north": {"uv": [6.25, 5.5, 6.75, 5.5], "texture": "#0"},
@@ -260,8 +259,8 @@
 		},
 		{
 			"name": "behind_inverted",
-			"from": [10, 26.56493, 16.45775],
-			"to": [6, 22.56493, 13.45775],
+			"from": [9.975, 26.5399, 16.4535],
+			"to": [6.025, 22.5899, 13.5035],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -24.56493, -15.95775]},
 			"faces": {
 				"north": {"uv": [6.75, 10, 7.75, 9], "texture": "#0"},
@@ -344,8 +343,8 @@
 		},
 		{
 			"name": "lense_protector_inverted",
-			"from": [11, 27.75, 2.5],
-			"to": [5, 21.75, -1.5],
+			"from": [10.975, 27.725, 2.475],
+			"to": [5.025, 21.775, -1.475],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -24.75, -0.5]},
 			"faces": {
 				"north": {"uv": [8.75, 4.75, 10.25, 3.25], "texture": "#0"},
@@ -387,7 +386,7 @@
 		{
 			"name": "antenna",
 			"from": [6, 28, 13],
-			"to": [6, 32, 14],
+			"to": [6.025, 32, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 28.5, 13.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 0, 0], "texture": "#0"},

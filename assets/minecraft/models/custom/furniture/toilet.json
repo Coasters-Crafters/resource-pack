@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "custom/toilet"
@@ -84,7 +83,7 @@
 			}
 		},
 		{
-			"from": [5, 9, 5],
+			"from": [5, 8.975, 5],
 			"to": [11, 9, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
 			"faces": {

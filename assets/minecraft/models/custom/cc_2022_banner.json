@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/cc2022_banner",
 		"particle": "custom/cc2022_banner"
@@ -7,7 +6,7 @@
 	"elements": [
 		{
 			"from": [-16, -16, 0],
-			"to": [32, 32, 0],
+			"to": [32, 32, 0.025],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},

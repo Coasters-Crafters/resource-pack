@@ -1,12 +1,11 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/mug1",
 		"particle": "custom/mug1"
 	},
 	"elements": [
 		{
-			"from": [4, 4, 8],
+			"from": [4, 3.975, 8],
 			"to": [10, 4, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
@@ -20,7 +19,7 @@
 		},
 		{
 			"from": [4, 0, 8],
-			"to": [10, 0, 12],
+			"to": [10, 0.025, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 0, 6], "rotation": 270, "texture": "#0"},
@@ -32,7 +31,7 @@
 			}
 		},
 		{
-			"from": [4, 0, 12],
+			"from": [4, 0, 11.975],
 			"to": [10, 4, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
@@ -46,7 +45,7 @@
 		},
 		{
 			"from": [4, 0, 8],
-			"to": [10, 4, 8],
+			"to": [10, 4, 8.025],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [8, 10, 12, 16], "rotation": 270, "texture": "#0"},
@@ -59,7 +58,7 @@
 		},
 		{
 			"from": [4, 0, 8],
-			"to": [4, 4, 12],
+			"to": [4.025, 4, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [12, 0, 16, 0], "rotation": 270, "texture": "#0"},
@@ -84,7 +83,7 @@
 			}
 		},
 		{
-			"from": [10, 0, 6],
+			"from": [10, 0, 5.975],
 			"to": [14, 6, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
@@ -98,7 +97,7 @@
 		},
 		{
 			"from": [10, 0, 2],
-			"to": [14, 6, 2],
+			"to": [14, 6, 2.025],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [7, 4, 11, 10], "texture": "#0"},
@@ -110,7 +109,7 @@
 			}
 		},
 		{
-			"from": [14, 0, 2],
+			"from": [13.975, 0, 2],
 			"to": [14, 6, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
@@ -124,7 +123,7 @@
 		},
 		{
 			"from": [10, 0, 2],
-			"to": [10, 6, 6],
+			"to": [10.025, 6, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 0, 6], "texture": "#0"},
@@ -137,7 +136,7 @@
 		},
 		{
 			"from": [10, 0, 2],
-			"to": [14, 0, 6],
+			"to": [14, 0.025, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [12, 0, 16, 0], "texture": "#0"},

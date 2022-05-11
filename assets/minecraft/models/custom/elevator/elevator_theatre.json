@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
 		"1": "custom/elevator"
@@ -35,8 +34,8 @@
 		},
 		{
 			"name": "body inverted",
-			"from": [19, 29, 19],
-			"to": [-3, 0, -3],
+			"from": [18.975, 28.975, 18.975],
+			"to": [-2.975, 0.025, -2.975],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14.5, 8]},
 			"faces": {
 				"north": {"uv": [9, 11.0625, 12, 7.0625], "texture": "#1"},

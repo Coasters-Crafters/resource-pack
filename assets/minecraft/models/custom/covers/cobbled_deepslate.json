@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/cobbled_deepslate",
 		"particle": "block/cobbled_deepslate"
@@ -7,7 +6,7 @@
 	"elements": [
 		{
 			"from": [0, 0, 0],
-			"to": [16, 16, 0],
+			"to": [16, 16, 0.025],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
