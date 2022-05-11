@@ -7,7 +7,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["丹"]
+            "chars": ["\uE200"]
         },
         {
             "type": "bitmap",
@@ -16,7 +16,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["ꍊ"]
+            "chars": ["\uE201"]
         },
         {
             "type": "bitmap",
@@ -25,7 +25,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["ꍈ"]
+            "chars": ["\uE202"]
         },
         {
             "type": "bitmap",
@@ -34,7 +34,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["下"]
+            "chars": ["\uE203"]
         },
         {
             "type": "bitmap",
@@ -43,7 +43,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["셞"]
+            "chars": ["\uE204"]
         },
         {
             "type": "bitmap",
@@ -52,7 +52,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["섢"]
+            "chars": ["\uE205"]
         },
         {
             "type": "bitmap",
@@ -61,7 +61,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["섫"]
+            "chars": ["\uE206"]
         },
         {
             "type": "bitmap",
@@ -70,7 +70,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["섬"]
+            "chars": ["\uE207"]
         },
         {
             "type": "bitmap",
@@ -79,7 +79,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["ꍉ"]
+            "chars": ["\uE208"]
         },
         {
             "type": "bitmap",
@@ -88,7 +88,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["섭"]
+            "chars": ["\uE209"]
         },
         {
             "type": "bitmap",
@@ -97,7 +97,7 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["ꍋ"]
+            "chars": ["\uE20A"]
         },
         {
             "type": "bitmap",
@@ -106,546 +106,546 @@
             "height": 7,
             "size": 10.0,
             "oversample": 10.0,
-            "chars": ["셐"]
+            "chars": ["\uE20B"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/black_box.png",
             "ascent": 250,
             "height": 1500,
-            "chars": [""]
+            "chars": ["\uE20C"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/blue_box.png",
             "ascent": 250,
             "height": 1500,
-            "chars": ["借"]
+            "chars": ["\uE20D"]
         },
         {
             "type": "bitmap",
             "file": "custom/logo_font.png",
             "ascent": -2,
             "height": 32,
-            "chars": ["ꡑꡒ", "ꡓꡔ"]
+            "chars": ["\uE20E\uE20F", "\uE210\uE211"]
         },
         {
             "type": "bitmap",
             "file": "custom/logo_font.png",
             "ascent": -2,
             "height": 64,
-            "chars": ["ꡡꡢ", "ꡣꡤ"]
+            "chars": ["\uE212\uE213", "\uE214\uE215"]
         },
         {
             "type": "bitmap",
             "file": "custom/logo_font.png",
             "ascent": 32,
             "height": 64,
-            "chars": ["ꡥꡦ", "ꡧꡨ"]
+            "chars": ["\uE216\uE217", "\uE218\uE219"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/menu_profile.png",
             "ascent": 19,
             "height": 256,
-            "chars": ["섥"]
+            "chars": ["\uE21A"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/location-pin.png",
             "ascent": 7.5,
             "height": 9,
-            "chars": ["ꢶ"]
+            "chars": ["\uE21B"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/clock.png",
             "ascent": 7.5,
             "height": 9,
-            "chars": ["ꈁ"]
+            "chars": ["\uE21C"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/esc.png",
             "ascent": -12,
             "height": 50,
-            "chars": ["ꢘ"]
+            "chars": ["\uE21D"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -3,
-            "chars": [""]
+            "chars": ["\uE21E"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -4,
-            "chars": [""]
+            "chars": ["\uE21F"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -5,
-            "chars": [""]
+            "chars": ["\uE220"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -6,
-            "chars": [""]
+            "chars": ["\uE221"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -7,
-            "chars": [""]
+            "chars": ["\uE222"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -8,
-            "chars": [""]
+            "chars": ["\uE223"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -9,
-            "chars": [""]
+            "chars": ["\uE224"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -10,
-            "chars": [""]
+            "chars": ["\uE225"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -10,
-            "chars": [""]
+            "chars": ["\uE225"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -11,
-            "chars": ["ꢭ"]
+            "chars": ["\uE227"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -18,
-            "chars": [""]
+            "chars": ["\uE228"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -34,
-            "chars": [""]
+            "chars": ["\uE229"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -66,
-            "chars": [""]
+            "chars": ["\uE22A"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -130,
-            "chars": [""]
+            "chars": ["\uE22B"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -258,
-            "chars": [""]
+            "chars": ["\uE22C"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -514,
-            "chars": [""]
+            "chars": ["\uE22D"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": -1026,
-            "chars": [""]
+            "chars": ["\uE22E"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32770,
             "height": -32770,
-            "chars": [""]
+            "chars": ["\uE22F"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 0,
-            "chars": [""]
+            "chars": ["\uE230"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 1,
-            "chars": [""]
+            "chars": ["\uE231"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 2,
-            "chars": [""]
+            "chars": ["\uE232"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 3,
-            "chars": [""]
+            "chars": ["\uE233"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 4,
-            "chars": [""]
+            "chars": ["\uE234"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 5,
-            "chars": [""]
+            "chars": ["\uE235"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 6,
-            "chars": [""]
+            "chars": ["\uE236"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 7,
-            "chars": [""]
+            "chars": ["\uE237"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 15,
-            "chars": [""]
+            "chars": ["\uE238"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 31,
-            "chars": [""]
+            "chars": ["\uE239"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 63,
-            "chars": [""]
+            "chars": ["\uE23A"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 127,
-            "chars": [""]
+            "chars": ["\uE23B"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 255,
-            "chars": [""]
+            "chars": ["\uE23C"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 511,
-            "chars": [""]
+            "chars": ["\uE23D"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 1023,
-            "chars": [""]
+            "chars": ["\uE23E"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_split.png",
             "ascent": -32768,
             "height": 32767,
-            "chars": [""]
+            "chars": ["\uE23F"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -3,
-            "chars": [""]
+            "chars": ["\uE240"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -4,
-            "chars": [""]
+            "chars": ["\uE241"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -5,
-            "chars": [""]
+            "chars": ["\uE242"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -6,
-            "chars": [""]
+            "chars": ["\uE243"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -7,
-            "chars": [""]
+            "chars": ["\uE244"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -8,
-            "chars": [""]
+            "chars": ["\uE245"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -9,
-            "chars": [""]
+            "chars": ["\uE246"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -10,
-            "chars": [""]
+            "chars": ["\uE247"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -18,
-            "chars": [""]
+            "chars": ["\uE248"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -34,
-            "chars": [""]
+            "chars": ["\uE249"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -66,
-            "chars": [""]
+            "chars": ["\uE24A"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -130,
-            "chars": [""]
+            "chars": ["\uE24B"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -258,
-            "chars": [""]
+            "chars": ["\uE24C"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -514,
-            "chars": [""]
+            "chars": ["\uE24D"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": -1026,
-            "chars": [""]
+            "chars": ["\uE24E"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 0,
-            "chars": [""]
+            "chars": ["\uE24F"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 1,
-            "chars": [""]
+            "chars": ["\uE250"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 2,
-            "chars": [""]
+            "chars": ["\uE251"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 3,
-            "chars": [""]
+            "chars": ["\uE252"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 4,
-            "chars": [""]
+            "chars": ["\uE253"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 5,
-            "chars": [""]
+            "chars": ["\uE254"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 6,
-            "chars": [""]
+            "chars": ["\uE255"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 7,
-            "chars": [""]
+            "chars": ["\uE256"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 15,
-            "chars": [""]
+            "chars": ["\uE257"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 31,
-            "chars": [""]
+            "chars": ["\uE258"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 63,
-            "chars": [""]
+            "chars": ["\uE259"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 127,
-            "chars": [""]
+            "chars": ["\uE25A"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 255,
-            "chars": [""]
+            "chars": ["\uE25B"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 511,
-            "chars": [""]
+            "chars": ["\uE25C"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 1023,
-            "chars": [""]
+            "chars": ["\uE25D"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/pixel_nosplit.png",
             "ascent": -32768,
             "height": 32767,
-            "chars": [""]
+            "chars": ["\uE25E"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/numbers.png",
             "ascent": -29,
             "height": 8,
-            "chars": ["ꢚꢛꢜꢝꢞꢟꢠꢡꢢꢣ"]
+            "chars": ["\uE25F\uE260\uE261\uE262\uE263\uE264\uE265\uE266\uE267\uE268"]
         },
         {
             "type": "bitmap",
             "file": "item/heart_of_the_sea.png",
             "ascent": -25,
             "height": 16,
-            "chars": ["ꢤ"]
+            "chars": ["\uE269"]
         },
         {
             "type": "bitmap",
             "file": "custom/ui/error.png",
             "ascent": 7,
             "height": 7,
-            "chars": ["膣冈鏻鎓矣耩", "纤缎缍绗缴缵"]
+            "chars": ["\uE26A\uE26B\uE26C\uE26D\uE26E\uE26F", "\uE270\uE271\uE272\uE273\uE274\uE275"]
         },
         {
             "type": "bitmap",
