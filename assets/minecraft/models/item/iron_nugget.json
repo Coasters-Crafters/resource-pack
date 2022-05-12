@@ -489,6 +489,115 @@
                 "custom_model_data": 514
             },
             "model": "minecraft:custom/cc_2022_banner"
+        },
+        {
+            "statues": "from 600 - 699",
+            "predicate": {
+                "custom_model_data": 600
+            },
+            "model": "minecraft:custom/statues/supapap"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 602
+            },
+            "model": "minecraft:custom/statues/einc123"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 603
+            },
+            "model": "minecraft:custom/statues/cubix"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 604
+            },
+            "model": "minecraft:custom/statues/thojs"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 605
+            },
+            "model": "minecraft:custom/statues/itzpolar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 606
+            },
+            "model": "minecraft:custom/statues/partypackage"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 607
+            },
+            "model": "minecraft:custom/statues/iobyte"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 608
+            },
+            "model": "minecraft:custom/statues/disneyarchitect"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 609
+            },
+            "model": "minecraft:custom/statues/56738"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 610
+            },
+            "model": "minecraft:custom/statues/blazingphoeyz_"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 611
+            },
+            "model": "minecraft:custom/statues/robbiebacc"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 612
+            },
+            "model": "minecraft:custom/statues/gizgez"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 613
+            },
+            "model": "minecraft:custom/statues/quniversals"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 614
+            },
+            "model": "minecraft:custom/statues/trikes"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 615
+            },
+            "model": "minecraft:custom/statues/garymeowzers"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 616
+            },
+            "model": "minecraft:custom/statues/ogredrupe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 617
+            },
+            "model": "minecraft:custom/statues/ziekenhuiskosten"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 618
+            },
+            "model": "minecraft:custom/statues/aztecsky"
         }
     ]
 }
