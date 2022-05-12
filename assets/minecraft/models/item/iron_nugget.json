@@ -598,6 +598,12 @@
                 "custom_model_data": 618
             },
             "model": "minecraft:custom/statues/aztecsky"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 619
+            },
+            "model": "minecraft:custom/statues/fishbowls"
         }
     ]
 }
