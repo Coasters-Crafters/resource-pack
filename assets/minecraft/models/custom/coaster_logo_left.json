@@ -5,8 +5,8 @@
 	},
 	"elements": [
 		{
-			"from": [-10, 6.975, -5],
-			"to": [28, 7, 21],
+			"from": [-10, 7, -5],
+			"to": [28, 7.025, 21],
 			"shade": false,
 			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8, 8]},
 			"faces": {
