@@ -604,6 +604,12 @@
                 "custom_model_data": 619
             },
             "model": "minecraft:custom/statues/fishbowls"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 620
+            },
+            "model": "minecraft:custom/statues/ethan839"
         }
     ]
 }
