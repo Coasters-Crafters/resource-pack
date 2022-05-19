@@ -610,6 +610,12 @@
                 "custom_model_data": 620
             },
             "model": "minecraft:custom/statues/ethan839"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 621
+            },
+            "model": "minecraft:custom/statues/chezzer"
         }
     ]
 }
