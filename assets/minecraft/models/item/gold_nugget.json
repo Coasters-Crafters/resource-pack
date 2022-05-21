@@ -1,1 +1,13 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/gold_nugget"},"overrides":[{"predicate":{"custom_model_data":5},"model":"minecraft:server/103-booth-1/model"},{"predicate":{"custom_model_data":6},"model":"minecraft:server/452-booth-1/model"},{"predicate":{"custom_model_data":7},"model":"minecraft:server/62-booth-1/model"},{"predicate":{"custom_model_data":8},"model":"minecraft:server/478-booth-1/model"},{"predicate":{"custom_model_data":9},"model":"minecraft:server/445-booth-1/model"},{"predicate":{"custom_model_data":10},"model":"minecraft:server/21-booth-1/model"},{"predicate":{"custom_model_data":null},"model":"minecraft:server/444-booth-1/model"}]}
+{
+    "parent": "minecraft:item/generated",
+    "textures": { "layer0": "minecraft:item/gold_nugget" },
+    "overrides": [
+        { "predicate": { "custom_model_data": 5 }, "model": "minecraft:server/103-booth-1/model" },
+        { "predicate": { "custom_model_data": 6 }, "model": "minecraft:server/452-booth-1/model" },
+        { "predicate": { "custom_model_data": 7 }, "model": "minecraft:server/62-booth-1/model" },
+        { "predicate": { "custom_model_data": 8 }, "model": "minecraft:server/478-booth-1/model" },
+        { "predicate": { "custom_model_data": 9 }, "model": "minecraft:server/445-booth-1/model" },
+        { "predicate": { "custom_model_data": 10 }, "model": "minecraft:server/21-booth-1/model" },
+        { "predicate": { "custom_model_data": 11 }, "model": "minecraft:server/444-booth-1/model" }
+    ]
+}
