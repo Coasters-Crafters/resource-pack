@@ -616,6 +616,18 @@
                 "custom_model_data": 621
             },
             "model": "minecraft:custom/statues/chezzer"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 622
+            },
+            "model": "minecraft:custom/statues/kastle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 623
+            },
+            "model": "minecraft:custom/statues/frankstripod"
         }
     ]
 }
