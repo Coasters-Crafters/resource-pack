@@ -8,6 +8,7 @@
         { "predicate": { "custom_model_data": 8 }, "model": "minecraft:server/478-booth-1/model" },
         { "predicate": { "custom_model_data": 9 }, "model": "minecraft:server/445-booth-1/model" },
         { "predicate": { "custom_model_data": 10 }, "model": "minecraft:server/21-booth-1/model" },
-        { "predicate": { "custom_model_data": 11 }, "model": "minecraft:server/444-booth-1/model" }
+        { "predicate": { "custom_model_data": 11 }, "model": "minecraft:server/444-booth-1/model" },
+        { "predicate": { "custom_model_data": 12 }, "model": "minecraft:server/955-booth-1/model" }
     ]
 }
