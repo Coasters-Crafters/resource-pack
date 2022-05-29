@@ -264,6 +264,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 142
+            },
+            "model": "minecraft:custom/zipline"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 199
             },
             "model": "minecraft:custom/furniture/bench"
