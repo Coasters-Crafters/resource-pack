@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "custom/hanging_lamp",
 		"particle": "custom/hanging_lamp"
@@ -92,6 +93,12 @@
 			}
 		}
 	],
+	"display": {
+		"head": {
+			"translation": [0, -27, 0],
+			"scale": [2, 2, 2]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

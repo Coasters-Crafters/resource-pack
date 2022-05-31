@@ -270,6 +270,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 143
+            },
+            "model": "minecraft:custom/furniture/hanging_lamp"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 199
             },
             "model": "minecraft:custom/furniture/bench"
