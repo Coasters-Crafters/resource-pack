@@ -12,6 +12,36 @@
                 "custom_model_data": 2
             },
             "model": "minecraft:item/player_head_profile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "skeletalanimations:player/body"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "skeletalanimations:player/head"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "skeletalanimations:player/arm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "skeletalanimations:player/arm_slim"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "skeletalanimations:player/leg"
         }
     ]
 }
