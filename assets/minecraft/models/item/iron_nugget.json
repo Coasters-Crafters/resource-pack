@@ -276,6 +276,60 @@
         },
         {
             "predicate": {
+                "custom_model_data": 144
+            },
+            "model": "minecraft:custom/marble_statues/dance"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 145
+            },
+            "model": "minecraft:custom/marble_statues/graceful"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 146
+            },
+            "model": "minecraft:custom/marble_statues/heart"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 147
+            },
+            "model": "minecraft:custom/marble_statues/heart2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 148
+            },
+            "model": "minecraft:custom/marble_statues/kneel"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 149
+            },
+            "model": "minecraft:custom/marble_statues/lib"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 150
+            },
+            "model": "minecraft:custom/marble_statues/reader"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 151
+            },
+            "model": "minecraft:custom/marble_statues/reader2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 152
+            },
+            "model": "minecraft:custom/marble_statues/weep"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 199
             },
             "model": "minecraft:custom/furniture/bench"
