@@ -694,6 +694,30 @@
                 "custom_model_data": 623
             },
             "model": "minecraft:custom/statues/frankstripod"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 624
+            },
+            "model": "minecraft:custom/machines/slot_machine_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 625
+            },
+            "model": "minecraft:custom/machines/slot_machine_group_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 626
+            },
+            "model": "minecraft:custom/machines/slot_machine_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 627
+            },
+            "model": "minecraft:custom/machines/slot_machine_group_2"
         }
     ]
 }
