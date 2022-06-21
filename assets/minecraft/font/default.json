@@ -645,7 +645,17 @@
             "file": "custom/ui/error.png",
             "ascent": 7,
             "height": 7,
-            "chars": ["\uE26A\uE26B\uE26C\uE26D\uE26E\uE26F", "\uE270\uE271\uE272\uE273\uE274\uE275"]
+            "chars": [
+                "\uE26A\uE26B\uE26C\uE26D\uE26E\uE26F",
+                "\uE270\uE271\uE272\uE273\uE274\uE275"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/ui/casino/blackjack.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uE276"]
         },
         {
             "type": "space",
