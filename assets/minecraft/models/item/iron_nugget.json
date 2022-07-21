@@ -468,6 +468,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 405
+            },
+            "model": "minecraft:custom/number_buttons/1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 406
+            },
+            "model": "minecraft:custom/number_buttons/2"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 500
             },
             "model": "minecraft:custom/chess/black_bishop"
