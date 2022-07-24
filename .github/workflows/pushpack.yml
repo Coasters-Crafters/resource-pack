@@ -28,12 +28,6 @@ jobs:
                   region: "eu-central-1"
                   access_key: ${{ secrets.S3_ACCESS_KEY }}
                   secret_key: ${{ secrets.S3_SECRET_KEY }}
-            - name: Get pack version from pack.mcmeta
-              id: packVersion
-              run: echo "::set-output name=PACK_VERSION::$(jq -r .pack.version pack.mcmeta)"
-            - name: Insert Pack Version
-              run: |
-                  jq '.pack.version as $version | del(.pack.version) | .pack.description += (" \u00A77(" + $version + ")")' pack.mcmeta > pack.mcmeta.tmp && mv pack.mcmeta.tmp pack.mcmeta
             - name: Minify JSON
               run: find . -type f \( -iname \*.json -o -iname \*.mcmeta \) -print0 | while IFS= read -r -d '' line; do jq -c 'del(.credit, .groups)' ${line} > ${line}.tmp && mv ${line}.tmp ${line}; done
             - name: Install pngquant
@@ -46,8 +40,6 @@ jobs:
             - name: Get Pack Hash
               id: packHash
               run: echo "::set-output name=PACK_HASH::$(shasum *.zip | awk '{ print $1 }')"
-            - name: Generate release diff
-              run: git fetch --tags --force && git log --pretty=format:"* %s (%h)" ${{ github.event.before }}..${{ github.event.after }} > release_notes.md
             - name: Upload pack to S3
               run: |
                   s3cmd put resourcepack.zip s3://coastercon/resourcepack.zip
