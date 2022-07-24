@@ -1,9 +1,6 @@
 name: Push Pack
 
-on:
-    push:
-        paths:
-            - "pack.mcmeta"
+on: push
 
 jobs:
     lint:
