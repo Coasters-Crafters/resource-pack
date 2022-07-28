@@ -420,6 +420,30 @@
         },
         {
             "predicate": {
+                "custom_model_data": 214
+            },
+            "model": "minecraft:custom/machines/slot_machine_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 215
+            },
+            "model": "minecraft:custom/machines/slot_machine_group_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 216
+            },
+            "model": "minecraft:custom/machines/slot_machine_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 217
+            },
+            "model": "minecraft:custom/machines/slot_machine_group_2"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 300
             },
             "model": "minecraft:custom/cosmetics/jackie_glasses"
@@ -711,25 +735,7 @@
             "predicate": {
                 "custom_model_data": 624
             },
-            "model": "minecraft:custom/machines/slot_machine_1"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 625
-            },
-            "model": "minecraft:custom/machines/slot_machine_group_1"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 626
-            },
-            "model": "minecraft:custom/machines/slot_machine_2"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 627
-            },
-            "model": "minecraft:custom/machines/slot_machine_group_2"
+            "model": "minecraft:custom/statues/cr1spiestpine"
         }
     ]
 }
