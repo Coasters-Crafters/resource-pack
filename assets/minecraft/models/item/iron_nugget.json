@@ -736,6 +736,49 @@
                 "custom_model_data": 624
             },
             "model": "minecraft:custom/statues/cr1spiestpine"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 700
+            },
+            "model": "minecraft:custom/row/a-l"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 701
+            },
+            "model": "minecraft:custom/row/a-r"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 702
+            },
+            "model": "minecraft:custom/row/b-l"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 703
+            },
+            "model": "minecraft:custom/row/b-r"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 704
+            },
+            "model": "minecraft:custom/row/c-l"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 705
+            },
+            "model": "minecraft:custom/row/c-r"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 706
+            },
+            "model": "minecraft:custom/row/d"
         }
-    ]
+    ],
+    "WARNING": "DO NOT MAKE CUSTOM MODEL DATA HERE! DON'T BE LAZY! PLEASE CATAGORIZE IT IN THE CUSTOM MODEL DATA SECTION ABOVE!"
 }
