@@ -672,6 +672,20 @@
             "chars": ["\uE278"]
         },
         {
+            "type": "bitmap",
+            "file": "custom/ui/bartender.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uE279"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/ui/waiter.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uE280"]
+        },
+        {
             "type": "space",
             "advances": {
                 " ": 4,
